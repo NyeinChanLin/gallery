@@ -14,17 +14,25 @@ Random Art Discovery: Fetches a new, randomly selected artwork with every click.
 
 🏗️ Modular Architecture (Modlets)
 
-The codebase is organized into three distinct, hierarchical Modlets to promote reusability, separation of concerns, and maintainability, fulfilling all academic requirements for advanced modularity:
+The codebase is organised into three distinct, hierarchical Modlets to promote reusability, separation of concerns, and maintainability, fulfilling all academic requirements for advanced modularity:
 
-data Modlet:
+# types Modlet:
 
-Responsibility: Handles all external data and type definitions.
+Responsibility: Handles type definitions.
 
-Contents: types.ts (type separation), apiService.ts (API fetch logic).
+Contents: types.ts (type separation).
 
-Pattern: Exposes all components via data/index.ts.
+Pattern: Exposes all components via types/index.ts.
 
-ui Modlet:
+# api
+
+Responsibility: Fetching API.
+
+Contents: metApi.ts (type separation).
+
+Pattern: Exposes all components via api/index.ts.
+
+# ui Modlet:
 
 Responsibility: Manages all DOM manipulation and visual updates.
 
