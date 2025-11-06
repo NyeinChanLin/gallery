@@ -77,12 +77,11 @@ npm install
 ```
 
 Build the Project:
-Compile the TypeScript files from the /src directory into browser-ready JavaScript files in the /dist directory.
 
 ```bash
 npm run dev
 ```
-
+Then you can select the server and view the web app 🎉
 ---
 
 ### 🔗 Data Source
