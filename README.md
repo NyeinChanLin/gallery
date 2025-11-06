@@ -24,7 +24,7 @@ Contents: types.ts (type separation).
 
 Pattern: Exposes all components via types/index.ts.
 
-# api
+# api Modlet:
 
 Responsibility: Fetching API.
 
