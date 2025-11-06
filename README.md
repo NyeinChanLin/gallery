@@ -80,7 +80,7 @@ Build the Project:
 Compile the TypeScript files from the /src directory into browser-ready JavaScript files in the /dist directory.
 
 ```bash
-npm run build
+npm run dev
 ```
 
 ---
