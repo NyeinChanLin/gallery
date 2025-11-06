@@ -1,4 +1,4 @@
-# 🖼️ Random Art Gallery (Museum of the Moment)
+# 🖼️ Random Art Gallery
 
 ---
 
@@ -85,4 +85,3 @@ This project uses public domain data and imagery provided by:
 The Metropolitan Museum of Art Collection API
 
 The Met's Open Access program allows for free and unrestricted use of images of public domain artworks under the Creative Commons Zero (CC0) license.
-# gallery
