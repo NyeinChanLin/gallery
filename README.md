@@ -68,7 +68,6 @@ Clone the Repository:
 
 ```bash
 git clone (https://github.com/NyeinChanLin/gallery.git)
-cd random-art-gallery
 ```
 
 Install Dependencies:
