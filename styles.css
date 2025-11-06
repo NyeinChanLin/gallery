@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFCA7B;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-section h1 {
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.hero-section p {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #666;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.art-card {
+    background: #9B2948;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.art-card p{
+    color: whitesmoke;
+}
+
+.art-card h2 {
+    color: #FEBC5A;
+}
+
+.art-card.empty-state {
+    min-height: 400px;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.art-card.empty-state .empty-state-content {
+    color: white;
+}
+
+.art-card.empty-state .empty-state-content .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:whitesmoke;
+}
+
+.art-card.empty-state .empty-state-content p {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.art-card:not(.empty-state) {
+    border: 1px solid #FEBC5A;
+}
+
+.art-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    display: block;
+}
+
+.art-info {
+    padding: 1.5rem;
+    background: #9B2948;
+    color: #FEBC5A;
+}
+
+/*.art-info h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    color: #f5f0f0;
+}
+
+.art-info p {
+    margin: 0.5rem 0;
+    color: #f5f0f0;
+    line-height: 1.6;
+}*/
+
+.generate-button {
+    display: block;
+    width: 200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.3s ease;
+}
+
+.generate-button:hover {
+    background: #34495e;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: #f0eded;
+}
+
+.error {
+    text-align: center;
+    padding: 2rem;
+    color: #e74c3c;
+}
+
+.footer h5 {
+    font-weight: lighter;
+}
